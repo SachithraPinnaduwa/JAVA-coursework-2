@@ -48,7 +48,7 @@ public void setup(){
         Electronics e = new Electronics("Electronics","3342",5,"Bill and hovel",6,6700,"Shaver");
         westminsterShoppingManager.addProductToInventory(e.getProductID(),e);
         westminsterShoppingManager.saveToFile();
-        String filePath = "Electronics.json"; // Replace with the actual file path
+        String filePath = "Electronics.json"; 
         assertTrue( fileExists(filePath));
 
     }
